@@ -235,10 +235,10 @@ pip3 uninstall nombre_del_paquete
 ```
 
 **Buscar paquetes:**
-```bash
-pip3 search nombre_del_paquete
-```
-(Nota: Este comando puede no estar disponible en versiones recientes de pip)
+
+El comando `pip search` fue eliminado en pip 21.0. Para buscar paquetes, puedes:
+- Visitar directamente [PyPI.org](https://pypi.org/) y usar su buscador
+- Usar la búsqueda de Google: `site:pypi.org nombre_del_paquete`
 
 ### Buenas prácticas
 
